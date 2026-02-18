@@ -11,6 +11,7 @@
  */
 
 import * as ed from "@noble/ed25519";
+import { randomBytes as nodeRandomBytes, webcrypto } from "node:crypto";
 import { sha512 } from "@noble/hashes/sha2.js";
 import { sha256 as sha256Hash } from "@noble/hashes/sha2.js";
 import canonicalize from "canonicalize";
@@ -19,6 +20,12 @@ import { join, relative, resolve, sep } from "path";
 
 // noble/ed25519 v3 requires sha512 to be configured
 ed.hashes.sha512 = sha512;
+
+// Node 18 compatibility: ensure WebCrypto exists and wire noble RNG.
+if (!globalThis.crypto) {
+  globalThis.crypto = webcrypto;
+}
+ed.etc.randomBytes = (len) => new Uint8Array(nodeRandomBytes(len));
 
 // ─── Constants ───────────────────────────────────────────────────────────────
 
