@@ -1,0 +1,17 @@
+{
+    "domain_tag": "ASI-SKILL-MANIFEST/v0.1",
+    "signed_at_decimal": 1739140000,
+    "signed_at_uint64be_hex": "00000000679f3940",
+    "manifest_hash_hex_example_prefix": "7d8e9f0a",
+    "manifest_hash_length_bytes": 32,
+    "expected_signing_input_layout": [
+      "UTF8(domain_tag)",
+      "00",
+      "manifest_hash_raw_32_bytes",
+      "signed_at_uint64be"
+    ],
+    "notes": [
+      "This vector defines byte layout only.",
+      "Implementations should compute real manifest_hash from a real JCS(manifest) and then build the signing input."
+    ]
+  }

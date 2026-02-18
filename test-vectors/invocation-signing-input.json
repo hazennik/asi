@@ -1,0 +1,20 @@
+{
+    "domain_tag": "ASI-INVOKE/v0.1",
+    "agent_id_example": "did:key:z6MkrJVnaZkeFzdQyMZu1cgjg7k1pZZ6pvBQ7XJPt4swbTQ2",
+    "timestamp_decimal": 1739140500,
+    "timestamp_uint64be_hex": "00000000679f3b14",
+    "payload_hash_hex_example_prefix": "9f0a1b2c",
+    "payload_hash_length_bytes": 32,
+    "expected_signing_input_layout": [
+      "UTF8(domain_tag)",
+      "00",
+      "UTF8(agent_id)",
+      "00",
+      "timestamp_uint64be",
+      "payload_hash_raw_32_bytes"
+    ],
+    "notes": [
+      "This vector defines byte layout only.",
+      "Implementations should compute real payload_hash from canonical/raw payload bytes and then build the signing input."
+    ]
+  }

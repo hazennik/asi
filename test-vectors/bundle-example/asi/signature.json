@@ -1,0 +1,9 @@
+{
+    "asi_version": "0.1",
+    "publisher_id": "did:key:PLACEHOLDER",
+    "public_key": "PLACEHOLDER",
+    "algorithm": "ed25519",
+    "manifest_hash": "sha256:PLACEHOLDER",
+    "signed_at": 0,
+    "signature": "PLACEHOLDER"
+  }

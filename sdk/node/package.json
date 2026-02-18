@@ -1,0 +1,23 @@
+{
+  "name": "@asi/node",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ASI v0.1 Reference SDK (Node.js)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "./src/asi.mjs",
+  "exports": {
+    ".": "./src/asi.mjs"
+  },
+  "scripts": {
+    "test": "node ./test/test.mjs"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^3.0.0",
+    "@noble/hashes": "^2.0.0",
+    "canonicalize": "^2.0.0"
+  }
+}

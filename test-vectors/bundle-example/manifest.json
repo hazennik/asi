@@ -1,0 +1,9 @@
+{
+    "name": "bundle-example",
+    "version": "1.0.0",
+    "description": "Test vector example bundle",
+    "files": {
+      "SKILL.md": "sha256:PLACEHOLDER",
+      "src/example.js": "sha256:PLACEHOLDER"
+    }
+  }

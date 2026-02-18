@@ -1,0 +1,9 @@
+{
+    "asi_version": "0.1",
+    "publisher_id": "did:key:EXAMPLE",
+    "public_key": "EXAMPLE",
+    "algorithm": "ed25519",
+    "manifest_hash": "sha256:EXAMPLE",
+    "signed_at": 0,
+    "signature": "EXAMPLE"
+  }

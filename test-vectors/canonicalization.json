@@ -1,0 +1,12 @@
+{
+    "input": {
+      "version": "1.0.0",
+      "name": "test-skill",
+      "files": {
+        "b.js": "sha256:bbb",
+        "a.js": "sha256:aaa"
+      },
+      "description": "A test"
+    },
+    "expected_jcs": "{\"description\":\"A test\",\"files\":{\"a.js\":\"sha256:aaa\",\"b.js\":\"sha256:bbb\"},\"name\":\"test-skill\",\"version\":\"1.0.0\"}"
+  }

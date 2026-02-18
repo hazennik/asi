@@ -1,0 +1,8 @@
+{
+    "name": "minimal-skill",
+    "version": "0.1.0",
+    "description": "Minimal example skill for ASI documentation",
+    "files": {
+      "SKILL.md": "sha256:PLACEHOLDER"
+    }
+  }
