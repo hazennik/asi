@@ -1,5 +1,7 @@
 # Agent Skill Identity (ASI) v0.1 — Reference SDK
 
+⚠️ ASI v0.1 is a cryptographic identity primitive. It does not implement reputation, governance, or registries.
+
 Minimal, framework-agnostic cryptographic identity primitives for agent skill ecosystems.
 
 This repo contains a **TypeScript/JavaScript (Node)** reference implementation and tests for:
