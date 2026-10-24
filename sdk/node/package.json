@@ -6,7 +6,7 @@
   "description": "ASI v0.1 Reference SDK (Node.js)",
   "license": "MIT",
   "engines": {
-    "node": ">=18"
+    "node": ">=22.23.4 <23 || >=24.22.1 <25"
   },
   "main": "./src/asi.mjs",
   "exports": {

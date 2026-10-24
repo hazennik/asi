@@ -1,14 +1,17 @@
 {
-    "name": "asi",
-    "private": true,
-    "version": "0.1.0",
-    "description": "Agent Skill Identity (ASI) v0.1 — Cryptographic identity primitive for agent skill ecosystems",
-    "license": "MIT",
-    "workspaces": [
-      "sdk/node",
-      "sdk/python"
-    ],
-    "scripts": {
-      "test": "npm --workspace sdk/node test"
-    }
+  "name": "asi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Agent Skill Identity (ASI) v0.1 \u2014 Cryptographic identity primitive for agent skill ecosystems",
+  "license": "MIT",
+  "workspaces": [
+    "sdk/node",
+    "sdk/python"
+  ],
+  "scripts": {
+    "test": "npm --workspace sdk/node test"
+  },
+  "engines": {
+    "node": ">=22.23.4 <23 || >=24.22.1 <25"
   }
+}
